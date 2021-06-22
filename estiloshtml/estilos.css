@@ -5,7 +5,6 @@ body
     text-align: left;
     font-family: "Arial";
     font-size: 16px;
-    margin: 0;
     padding: 0;
 }
 #cabecera
@@ -46,5 +45,11 @@ body
 {
     background: rgb(38, 44, 117);
     padding: 1em;
-
+}
+#footer
+{
+    background: #777;
+    text-align: center;
+    text-shadow: rgb(1, 255, 255);
+    font-size: 15px;
 }
