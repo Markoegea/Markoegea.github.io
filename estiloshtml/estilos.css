@@ -23,6 +23,12 @@ body
     font-weight: normal;
     font-size: 0.8em;
 }
+#cabecera #imagen
+{
+    padding: 0 0 0 4em;
+    font-weight: normal;
+    font-size: 0.8em;
+}
 #container
 {
     width: 70%;
