@@ -1,10 +1,10 @@
 body 
 {
+    background: rgb(31, 30, 30) ;
     color: #333;
     text-align: left;
     font-family: "Old English Text MT";
     font-size: 16px;
-    margin: 0;
     padding: 0;
 }
 #cabecera
@@ -14,7 +14,7 @@ body
     color: rgb(255, 255, 255);
     font-weight: bold;
     margin: 0;
-    padding: 0.5em;
+    padding: 0.5em 0 0.5em 1em;
     font-size: 50px;
 }
 #cabecera #tagline
@@ -22,6 +22,11 @@ body
     padding: 0 0 0 1em;
     font-weight: normal;
     font-size: 0.8em;
+}
+#cabecera #imagen
+{
+    width: 90px;
+    vertical-align:middle ;
 }
 #container
 {
@@ -38,5 +43,13 @@ body
 }
 #post
 {
+    background: rgb(38, 44, 117);
     padding: 1em;
+}
+#footer
+{
+    background: #777;
+    text-align: center;
+    text-shadow: rgb(1, 255, 255);
+    font-size: 15px;
 }
