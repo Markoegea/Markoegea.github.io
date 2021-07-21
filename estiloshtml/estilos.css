@@ -53,3 +53,20 @@ body
     text-shadow: rgb(1, 255, 255);
     font-size: 15px;
 }
+.heart 
+{
+background-image: url(corazon.png);
+cursor: pointer;
+height: 100px;
+width: 100px;
+margin: 0 auto 0 auto;
+}
+.heart-animation 
+{
+    animation: heart-beat 0.8s steps(28) forwards;
+}
+@keyframes heart-beat 
+{
+    from{background-position: left;}
+    to{background-position: right;}
+}
